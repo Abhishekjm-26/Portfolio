@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abhishek J M - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+        }
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1.25rem 4rem;
+        }
+        .card {
+            background: rgba(15, 23, 42, 0.95);
+            border-radius: 1rem;
+            padding: 1.75rem;
+            border: 1px solid rgba(148, 163, 184, 0.4);
+            box-shadow: 0 20px 40px rgba(15, 23, 42, 0.8);
+        }
+        header {
+            border-bottom: 1px solid rgba(148, 163, 184, 0.3);
+            padding-bottom: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+        header h1 {
+            margin: 0 0 0.3rem;
+            font-size: 2rem;
+            letter-spacing: 0.04em;
+        }
+        .location {
+            color: #9ca3af;
+            font-size: 0.95rem;
+        }
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem 1.5rem;
+            font-size: 0.9rem;
+            margin-top: 0.75rem;
+        }
+        .contact-item {
+            display: flex;
+            gap: 0.4rem;
+            align-items: center;
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.1rem 0.55rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            border: 1px solid rgba(148, 163, 184, 0.5);
+            color: #e5e7eb;
+        }
+        section {
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            margin: 0 0 0.5rem;
+            font-size: 1.15rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #93c5fd;
+        }
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(to right, rgba(148, 163, 184, 0.5), transparent);
+            margin-bottom: 0.75rem;
+        }
+        .section-content {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #e5e7eb;
+        }
+        .section-content p {
+            margin: 0 0 0.4rem;
+        }
+        .list-block {
+            margin-top: 0.25rem;
+        }
+        .list-block p {
+            margin: 0.15rem 0;
+        }
+        .experience-role {
+            font-weight: 600;
+            margin-bottom: 0.1rem;
+        }
+        .experience-meta {
+            font-size: 0.85rem;
+            color: #9ca3af;
+            margin-bottom: 0.4rem;
+        }
+        ul {
+            margin: 0.35rem 0 0.35rem 1.25rem;
+            padding: 0;
+            list-style: disc;
+        }
+        li {
+            margin-bottom: 0.25rem;
+        }
+        footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(148, 163, 184, 0.3);
+            font-size: 0.8rem;
+            text-align: center;
+            color: #9ca3af;
+        }
+        @media (max-width: 640px) {
+            .card {
+                padding: 1.25rem;
+            }
+            header h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <header>
+            <h1>Abhishek J M</h1>
+            <div class="location">Bengaluru, Karnataka, India</div>
+            <div class="contact">
+                <div class="contact-item">
+                    <a href="tel:+917019120854">+91 - 7019120854</a>
+                </div>
+                <div class="contact-item">
+                    <a href="mailto:abhishekjm26@gmail.com">abhishekjm26@gmail.com</a>
+                </div>
+
+                <!-- Clickable LinkedIn Badge -->
+                <div class="contact-item">
+                    <a href="https://linkedin.com/in/abhishek-j-m-b98405172" 
+                       class="badge" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                </div>
+
+                <!-- Clickable GitHub Badge -->
+                <div class="contact-item">
+                    <a href="https://github.com/Abhishekjm-26" 
+                       class="badge" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                </div>
+
+            </div>
+        </header>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <div class="section-divider"></div>
+            <div class="section-content">
+                <p>Software Engineer with 3 years of experience in automation, technical and product support, and application integration. Skilled in Python, Linux, SQL, REST APIs, and troubleshooting with strong L1/L2 operations experience. Available to join immediately.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="section-divider"></div>
+            <div class="section-content">
+                <div class="list-block">
+                    <p><strong>Technical Skills:</strong> Linux CLI, SQL, Python, REST API's, SSO/SAML, AWS basics, PyQt/Tkinter, Network protocols, DSA.</p>
+                    <p><strong>Soft skills:</strong> Communication, Leadership, Troubleshooting, Research, Attention to detail, Incident/Ticket management.</p>
+                    <p><strong>Tools/IDE's:</strong> VS code, PyCharm, Informatica Developer, Qwiklabs, MS Office, Oracle Database, GitHub.</p>
+                    <p><strong>AI tools:</strong> Antigravity, GitHub copilot.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="section-divider"></div>
+            <div class="section-content">
+                <p>Jawaharlal Nehru New College Of Engineering — Bachelor's in Information Science (2018–2022)</p>
+                <p>GPA: 8.11/10 </p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="section-divider"></div>
+            <div class="section-content">
+                <div class="list-block">
+                    <p class="experience-role">Sony India Software Centre - Software Engineer (2022-2025)</p>
+                    <ul>
+                        <li>Delivered L1/L2 support for Sony APAC applications, maintaining smooth file transfers and SLA adherence.</li>
+                        <li>Monitoring on premise servers and exceptions to avoid downtime and ensure successful file transfers between applications.</li>
+                        <li>Performed REST API CRUD tasks and fixed DNS resolution issues.</li>
+                        <li>Carried out server maintenance and error handling using Linux commands.</li>
+                        <li>Executed SQL queries to manage application/interface records for database housekeeping and migration.</li>
+                        <li>Recommended Sony APAC applications to move to Informatica Cloud for data transfers.</li>
+                        <li>Assisted migration to Informatica Cloud, managing protocol changes, server shifts, firewall checks, and app/interface moves.</li>
+                        <li>Developed a Python PyQt automation tool to simplify L1 tasks.</li>
+                        <li>Wrote and updated Standard Operating Procedures (SOPs) to support system operations.</li>
+                    </ul>
+                </div>
+
+                <div class="list-block" style="margin-top:0.75rem;">
+                    <p class="experience-role">Google Developer Student Club Lead - DSC JNNCE (2020-21)</p>
+                    <ul>
+                        <li>Gathered requirements for community portal and chatbot.</li>
+                        <li>Led project execution as project management lead.</li>
+                        <li>Organized Google Cloud programs & technical events.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <div class="section-divider"></div>
+            <div class="section-content">
+                <ul>
+                    <li>Appointed as the Google Developer Student Club Lead for my campus community.</li>
+                    <li>Awarded the Sony Spot Award for developing automation solutions that significantly streamlined L1 operations.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="section-divider"></div>
+    <div class="section-content">
+        <p>
+            <a href="https://www.linkedin.com/in/abhishek-j-m-b98405172/details/certifications/" 
+               class="badge" 
+               target="_blank" 
+               rel="noopener noreferrer">
+               View Certifications
+            </a>
+        </p>
+        <ul>
+            <li>AWS Cloud Practitioner, Expiry - 2027</li>
+            <li>Introduction to Large Language Models</li>
+            <li>30 Days of Google Cloud Challenge</li>
+            <li>Informatica Platform Foundational Certificate</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="section-divider"></div>
+    <div class="section-content">
+        <p>
+            <a href="https://github.com/Abhishekjm-26" 
+               class="badge" 
+               target="_blank" 
+               rel="noopener noreferrer">
+               View Projects
+            </a>
+        </p>
+
+        <div class="list-block">
+            <p><strong>QuickAccess – Python Automation Module</strong></p>
+            <p>Developed a Python automation tool to streamline L1 operations and reduce manual effort.</p>
+        </div>
+
+        <div class="list-block" style="margin-top:0.5rem;">
+            <p><strong>Customer Reviews for Product Recommendation using WordCloud</strong></p>
+            <p>Built a simple recommendation method using customer reviews and WordCloud visualization.</p>
+        </div>
+    </div>
+</section>
+
+
+        <footer>
+            <p>© Abhishek J M. All rights reserved.</p>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
